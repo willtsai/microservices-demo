@@ -308,6 +308,7 @@ resource cartserviceContainer 'Radius.Compute/containers@2025-08-01-preview' = {
     connections: {
       rediscache: {
         source: redisCache.id
+        disableDefaultEnvVars: true
       }
     }
   }
