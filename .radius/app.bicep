@@ -45,6 +45,7 @@ resource adserviceImage 'Radius.Compute/containerImages@2025-08-01-preview' = {
   properties: {
     environment: environment
     application: microservicesDemoApp.id
+    tag: '3870470e'
     codeReference: 'src/adservice/Dockerfile'
     build: {
       source: 'git::https://github.com/willtsai/microservices-demo.git//src/adservice?ref=3870470eaedc0ecc64224b4f127fe6f0dc9a1e22'
@@ -64,6 +65,7 @@ resource cartserviceImage 'Radius.Compute/containerImages@2025-08-01-preview' = 
   properties: {
     environment: environment
     application: microservicesDemoApp.id
+    tag: '3870470e'
     codeReference: 'src/cartservice/src/Dockerfile'
     build: {
       source: 'git::https://github.com/willtsai/microservices-demo.git//src/cartservice/src?ref=3870470eaedc0ecc64224b4f127fe6f0dc9a1e22'
@@ -83,6 +85,7 @@ resource checkoutserviceImage 'Radius.Compute/containerImages@2025-08-01-preview
   properties: {
     environment: environment
     application: microservicesDemoApp.id
+    tag: '3870470e'
     codeReference: 'src/checkoutservice/Dockerfile'
     build: {
       source: 'git::https://github.com/willtsai/microservices-demo.git//src/checkoutservice?ref=3870470eaedc0ecc64224b4f127fe6f0dc9a1e22'
@@ -102,6 +105,7 @@ resource currencyserviceImage 'Radius.Compute/containerImages@2025-08-01-preview
   properties: {
     environment: environment
     application: microservicesDemoApp.id
+    tag: '3870470e'
     codeReference: 'src/currencyservice/Dockerfile'
     build: {
       source: 'git::https://github.com/willtsai/microservices-demo.git//src/currencyservice?ref=3870470eaedc0ecc64224b4f127fe6f0dc9a1e22'
@@ -121,6 +125,7 @@ resource emailserviceImage 'Radius.Compute/containerImages@2025-08-01-preview' =
   properties: {
     environment: environment
     application: microservicesDemoApp.id
+    tag: '3870470e'
     codeReference: 'src/emailservice/Dockerfile'
     build: {
       source: 'git::https://github.com/willtsai/microservices-demo.git//src/emailservice?ref=3870470eaedc0ecc64224b4f127fe6f0dc9a1e22'
@@ -140,6 +145,7 @@ resource frontendImage 'Radius.Compute/containerImages@2025-08-01-preview' = {
   properties: {
     environment: environment
     application: microservicesDemoApp.id
+    tag: '3870470e'
     codeReference: 'src/frontend/Dockerfile'
     build: {
       source: 'git::https://github.com/willtsai/microservices-demo.git//src/frontend?ref=3870470eaedc0ecc64224b4f127fe6f0dc9a1e22'
@@ -159,6 +165,7 @@ resource loadgeneratorImage 'Radius.Compute/containerImages@2025-08-01-preview' 
   properties: {
     environment: environment
     application: microservicesDemoApp.id
+    tag: '3870470e'
     codeReference: 'src/loadgenerator/Dockerfile'
     build: {
       source: 'git::https://github.com/willtsai/microservices-demo.git//src/loadgenerator?ref=3870470eaedc0ecc64224b4f127fe6f0dc9a1e22'
@@ -178,6 +185,7 @@ resource paymentserviceImage 'Radius.Compute/containerImages@2025-08-01-preview'
   properties: {
     environment: environment
     application: microservicesDemoApp.id
+    tag: '3870470e'
     codeReference: 'src/paymentservice/Dockerfile'
     build: {
       source: 'git::https://github.com/willtsai/microservices-demo.git//src/paymentservice?ref=3870470eaedc0ecc64224b4f127fe6f0dc9a1e22'
@@ -197,6 +205,7 @@ resource productcatalogserviceImage 'Radius.Compute/containerImages@2025-08-01-p
   properties: {
     environment: environment
     application: microservicesDemoApp.id
+    tag: '3870470e'
     codeReference: 'src/productcatalogservice/Dockerfile'
     build: {
       source: 'git::https://github.com/willtsai/microservices-demo.git//src/productcatalogservice?ref=3870470eaedc0ecc64224b4f127fe6f0dc9a1e22'
@@ -216,6 +225,7 @@ resource recommendationserviceImage 'Radius.Compute/containerImages@2025-08-01-p
   properties: {
     environment: environment
     application: microservicesDemoApp.id
+    tag: '3870470e'
     codeReference: 'src/recommendationservice/Dockerfile'
     build: {
       source: 'git::https://github.com/willtsai/microservices-demo.git//src/recommendationservice?ref=3870470eaedc0ecc64224b4f127fe6f0dc9a1e22'
@@ -235,6 +245,7 @@ resource shippingserviceImage 'Radius.Compute/containerImages@2025-08-01-preview
   properties: {
     environment: environment
     application: microservicesDemoApp.id
+    tag: '3870470e'
     codeReference: 'src/shippingservice/Dockerfile'
     build: {
       source: 'git::https://github.com/willtsai/microservices-demo.git//src/shippingservice?ref=3870470eaedc0ecc64224b4f127fe6f0dc9a1e22'
